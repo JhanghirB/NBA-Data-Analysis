@@ -33,4 +33,4 @@ NBA Data Analysis is a project that gathers, combines, and visualizes data relat
 
 ## Use Case
 
-This project is designed for sports analysts, fans, or data scientists interested in NBA trends. It can support research, visualization, or dashboard development by providing a structured and data-driven foundation for analyzing schedules, locations, and related metrics.
+This project is designed for sports analysts, fans, or data scientists interested in NBA trends. It can support visualization, research, or dashboard development by providing a structured and data-driven foundation for analyzing schedules, locations, and related metrics.
