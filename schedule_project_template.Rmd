@@ -6,7 +6,6 @@ date: "`r format(Sys.Date(), '%m/%d/%y')`"
 ---
 
 ```{r set options, include=FALSE}
-# DO NOT CHANGE THE LINE BELOW 
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -43,11 +42,7 @@ htmltools::img(src = 'https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.sv
                 style = 'position: fixed; top: -40px; left: 5px;')
 ```
 
-# Introduction
 
-The purpose of this project is to gauge your technical skills and problem solving ability by working through something similar to a real NBA data science project. You will work your way through this R Markdown document, answering questions as you go along. Please begin by adding your name to the "author" key in the YAML header. When you're finished with the document, come back and type your answers into the answer key at the top. Please leave all your work below and have your answers where indicated below as well. Please note that we will be reviewing your code so make it clear, concise, and **avoid long printouts.** Feel free to add in as many new code chunks as you'd like.
-
-Remember that we will be grading the quality of your code and visuals alongside the correctness of your answers. Please try to use the tidyverse as much as possible (instead of base R and explicit loops). Please do not bring in any outside data, and use the provided data as truth (for example, some "home" games have been played at secondary locations, including TOR's entire 2020-21 season. These are not reflected in the data and you do not need to account for this.) Note that the OKC and DEN 2024-25 schedules in `schedule_24_partial.csv` intentionally include only 80 games, as the league holds 2 games out for each team in the middle of December due to unknown NBA Cup matchups. Do not assign specific games to fill those two slots.
 
 **Note:**
 
@@ -623,3 +618,4 @@ tail(team_schedule_impact, 10)
     -   Defensive team stats, including eFG%, rebound percentage, and block rate.
 
     By using this model, I predicted each defensive team's win probability in the actual schedule and a neutral schedule (no travel, no back-to-backs, and average rest). The difference in the predicted win probability between these two was used to estimate total wins gained or lost due to scheduling. The difference between the two predicted probabilities was used to estimate the total number of regular season wins gained or lost due to scheduling for each team.
+
