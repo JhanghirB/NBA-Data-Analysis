@@ -17,7 +17,6 @@ NBA Data Analysis is a project that gathers, combines, and visualizes data relat
 
 - Merge and clean various CSV datasets to provide a unified view of NBA games and locations  
 - Enable exploratory data analysis (EDA) to answer questions such as:
-  - Which venues host the most games?
   - How do team performance or schedule density vary over time?
   - What insights can be drawn about travel, scheduling impacts, or geographic distribution  
 
